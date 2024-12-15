@@ -1,0 +1,82 @@
+/* styles.css
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container h2 {
+    color: #fff;
+    border-bottom: 2px solid yellow;
+    display: inline-flex;
+    margin-bottom: 10px;
+    text-align: center; 
+    
+
+    
+  }
+
+  .container p {
+    margin: 10px 0;
+  }
+  
+  .container span {
+    color: red;
+    font-weight: bold;
+  } */
+  
+
+  /* Common container styling for both modes */
+.container, .noncontainer {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+}
+
+/* Light mode styles */
+.container {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Dark mode styles */
+.noncontainer {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Heading styling */
+.container h2, .noncontainer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Paragraph styling */
+.container p, .noncontainer p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* Optional responsive styles */
+@media (max-width: 600px) {
+  .container, .noncontainer {
+    padding: 15px;
+    width: 95%;
+  }
+
+  .container h2, .noncontainer h2 {
+    font-size: 20px;
+  }
+
+  .container p, .noncontainer p {
+    font-size: 14px;
+  }
+}

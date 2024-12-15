@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+/* Light and Dark Mode Styles */
+.light-nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 9px;
+  }
+  
+  .dark-nav {
+    border-radius: 9px;
+
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border-radius: 9px; */
+  }
+  
+  /* Navigation Links */
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  nav ul .loginpage,
+  nav ul .Home,
+  nav ul .About,
+  nav ul .Alltodos {
+    text-decoration: none;
+    color: inherit; /* Use color from parent (light-nav/dark-nav) */
+  }
+  
+  nav ul .loginpage:hover,
+  nav ul .Home:hover,
+  nav ul .About:hover,
+  nav ul .Alltodos:hover {
+    text-decoration: underline;
+  }
+  

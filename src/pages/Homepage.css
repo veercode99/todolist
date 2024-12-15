@@ -1,0 +1,96 @@
+/* Light and Dark Mode Wrappers */
+.light-outpage {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .dark-outpage {
+    background-color: #2d2d2d;
+    color: #e1e1e1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Main Content Container */
+  /* .light-page,
+  .dark-page {
+    /* width: 95%;
+    max-height: 99%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;} */
+  
+  
+  .light-page {
+    background-color: #ffffff;
+    color: #000000;
+    width: 95%;
+    max-height: 99%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .dark-page {
+    background-color: #3a3a3a;
+    color: #f1f1f1;
+    width: 95%;
+    max-height: 99%;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: left;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Logout Page Styles */
+  .logoutpagetag {
+    margin-top: 20px;
+    text-align: left;
+    border-radius: 8px;
+    padding: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .light-page .logoutpagetag {
+    background-color: #f9f9f9;
+    color: #000;   
+  }
+  
+  .dark-page .logoutpagetag {
+    background-color: #444444;
+    color: #fff;    
+  }
+  
+  /* Empty Task Message */
+  .tasktagmap {
+    font-size: 16px;
+    font-style: italic;
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .light-page,
+    .dark-page {
+      padding: 15px;
+    }
+  
+    .logoutpagetag {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
